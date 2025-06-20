@@ -21,7 +21,7 @@ El usuario selecciona una figura desde el menú, ingresa las dimensiones requeri
 - Git (control de versiones)
 
 ## 📁 Estructura del proyecto
-
+'''
 Proyecto/
 ├── app.py # Archivo principal de ejecución
 ├── README.md # Documento de descripción del proyecto
@@ -31,3 +31,4 @@ Proyecto/
 │ └── areas.py # Lógica para el cálculo de áreas de figuras geométricas
 └── vista/
 └── ui_main.py # Interfaz gráfica generada desde Qt Designer (.ui convertido a .py)
+'''
