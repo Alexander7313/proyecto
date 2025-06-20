@@ -22,12 +22,12 @@ El usuario selecciona una figura desde el menú, ingresa las dimensiones requeri
 
 ## 📁 Estructura del proyecto
 
-│
+Proyecto/
 ├── app.py # Archivo principal de ejecución
-├── README.md # Este archivo
-├── .venv/ # Entorno virtual (excluido en el repo con .gitignore)
-  └── src/
-  ├── logica/
-  │ └── areas.py # Lógica para cálculo de áreas
+├── README.md # Documento de descripción del proyecto
+├── .venv/ # Entorno virtual (excluido en el repositorio con .gitignore)
+└── src/
+├── logica/
+│ └── areas.py # Lógica para el cálculo de áreas de figuras geométricas
 └── vista/
-└── ui_main.py # Interfaz generada desde Qt Designer
+└── ui_main.py # Interfaz gráfica generada desde Qt Designer (formato .ui convertido a .py)
