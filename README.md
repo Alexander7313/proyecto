@@ -25,9 +25,9 @@ El usuario selecciona una figura desde el menú, ingresa las dimensiones requeri
 Proyecto/
 ├── app.py # Archivo principal de ejecución
 ├── README.md # Documento de descripción del proyecto
-├── .venv/ # Entorno virtual (excluido en el repositorio con .gitignore)
+├── .venv/ # Entorno virtual (excluido con .gitignore)
 └── src/
 ├── logica/
 │ └── areas.py # Lógica para el cálculo de áreas de figuras geométricas
 └── vista/
-└── ui_main.py # Interfaz gráfica generada desde Qt Designer (formato .ui convertido a .py)
+└── ui_main.py # Interfaz gráfica generada desde Qt Designer (.ui convertido a .py)
